@@ -1,0 +1,6 @@
+Flask
+pymongo
+pika
+twilio
+python-dotenv
+flasgger 
