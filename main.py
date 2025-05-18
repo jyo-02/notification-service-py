@@ -4,7 +4,7 @@ import os
 from flask import Flask
 from flasgger import Swagger
 from app.routes.notifications import notifications_bp
-from worker import process_notification, rabbitmq  # Worker logic
+from worker import process_notification, rabbitmq  
 
 def create_app():
     app = Flask(__name__)
