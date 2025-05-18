@@ -58,19 +58,14 @@ TWILIO_PHONE_NUMBER=+15551234567
 
 Make sure **MongoDB** and **RabbitMQ** are running locally or on the cloud.
 
-### 4. Start the API Server
+### 4. Start the API Server & Worker process
 
 ```bash
-npm run dev
+python main.py
 ```
 
 The server will start at `http://localhost:5000`
 
-### 5. Start the Worker Process
-
-```bash
-npm run worker
-```
 
 ---
 
